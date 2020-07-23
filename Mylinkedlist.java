@@ -145,7 +145,8 @@ public class Mylinkedlist<A> {
 			Node next;
 			Node prev;
 			
-			Node(A data){
+			Node(A data)
+			{
 				this.data=data;
 				this.next=null;
 				this.prev=null;
